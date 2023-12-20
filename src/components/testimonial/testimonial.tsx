@@ -1,6 +1,6 @@
 import "./testimonial.css";
 
-import group7328 from "../../assets/Group 7328.png";
+
 // import group7227 from '../../assets/Group 7227.png'
 import group7227 from "../../assets/testimonials.svg";
 import group7254 from "../../assets/Group 7254.png";
