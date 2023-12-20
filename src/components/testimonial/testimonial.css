@@ -57,7 +57,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -60px;
+  margin-top: 50px;
 }
 
 .innerRti,
@@ -79,10 +79,10 @@
   justify-content: center;
 }
 
-#section5 > div.innerLti > img:nth-child(1) {
+/* #section5 > div.innerLti > img:nth-child(1) {
   display: none;
   position: absolute;
-}
+} */
 
 .heading {
   width: 20%;
@@ -159,7 +159,7 @@
     > div.imgWrapperTest
     > div.innerRti
     > img:nth-child(2) {
-    width: 63%;
+    width: 100%;
   }
 
 

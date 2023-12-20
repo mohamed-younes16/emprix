@@ -9,7 +9,7 @@ import group7330 from "../../assets/Group 7330.png";
 import group7331 from "../../assets/Group 7331.png";
 import group7332 from "../../assets/Group 7332.png";
 import group7338 from "../../assets/Group7338.svg";
-
+import testimonialsText from "../../assets/testimonialsText.svg";
 const testimonial = () => {
   return (
     <>
@@ -19,12 +19,13 @@ const testimonial = () => {
                     <div className="pentagon-2"></div> */}
           <div className="testWrapperr" id="section5">
             <div className="innerLti ">
+            <img className="imgTest h-[180px] " src={testimonialsText} alt="" />
               <img className="imgTest  hover:shadow-black transition-all shadow-2xl p-4 rounded-2xl " src={group7338} alt="" />
-              <img className="imgTest  hover:shadow-black transition-all shadow-2xl p-4 rounded-2xl " src={group7328} alt="testimonials" />
+           
             </div>
             <div className="innerRti">
               <img
-                className="testimonial-image imageTest  hover:shadow-black transition-all shadow-2xl p-4 rounded-2xl "
+                className="testimonial-image imageTest mt-4 hover:shadow-black transition-all shadow-2xl p-4 rounded-2xl "
                 src={group7227}
                 alt="proof"
               />

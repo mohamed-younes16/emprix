@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 // ContactForm.tsx
 import React, { useState } from "react";
 import "./contactus.css";
@@ -17,7 +18,6 @@ const ContactForm: React.FC = () => {
   });
   const {
     VITE_TEMPLATE_KEY,
-
     VITE_SERVICE_KEY,
     VITE_PUBLIC_KEYOF_EMAILJS,
   
@@ -47,7 +47,7 @@ const ContactForm: React.FC = () => {
       VITE_PUBLIC_KEYOF_EMAILJS
       )
       .then(
-        (result: any) => {
+        (result:any) => {
           console.log(result)
         result.status == 200 && toast.success("your message has been  sent successfully ✅")
         }
@@ -127,10 +127,6 @@ const ContactForm: React.FC = () => {
         <div className="innerSecFormRt flex-col flex justify-center">
           <div className="inInnerSecTxt max-md:mt-14" >
             <h1>GET IN TOUCH</h1>
-            {/* <div className="cellForm1">
-              <img src={vector} alt="" />
-              <p>502 W 7TH STREET SUITE 100 ERIE, PA 16502</p>
-            </div> */}
             <div className="cellForm3">
               <img src={basilinsta} alt="" />
               <p>support@Emprixmarketing</p>

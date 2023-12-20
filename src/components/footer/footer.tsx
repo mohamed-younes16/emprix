@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 import "./footer.css";
 import { useState } from "react";
 import rec197 from "../../assets/Rectangle 197.png";
@@ -32,7 +33,7 @@ const footer = () => {
     <>
       <div className="footerWrappr  mt-28">
         <div className="topRow">
-          <img className="imgFoot" src={rec197} alt="" />
+          <img className="imgFoot !text-black" src={rec197} alt="" />
           <p className="pFooter">
             We create custom plans for established online shops on social media.
             <br></br> Our team of experts helps improve your brand's online
@@ -62,18 +63,18 @@ const footer = () => {
             />
           </div>
         </div>
-        <div className="btmRow flex-wrap  text-white flex justify-center gap-5 p-3 !bg-black">
+        <div className="btmRow flex-wrap  flex justify-center gap-5 p-3 ">
           <div className="">
             <p>
               © 2023 &nbsp; <span className="spanfot"> Emprix Marketing</span>{" "}
               &nbsp; All Rights Reserved
             </p>
           </div>
-          <div className="innerRtt space-x-3 !text-white">
+          <div className="innerRtt space-x-3 ">
             <ul>
               <li>
                 <a
-                  className="terms-and-condition-button !text-white"
+                  className="terms-and-condition-button "
                   onClick={openTermsConditionPopup}
                 >
                   Terms & Conditions
@@ -81,7 +82,7 @@ const footer = () => {
               </li>
               <li>
                 <a
-                  className="privacy-policy-button !text-white"
+                  className="privacy-policy-button "
                   onClick={openPopup}
                 >
                   Privacy Policy
