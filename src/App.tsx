@@ -12,7 +12,7 @@ import "./App.css";
 import "./Styles.css";
 import { useEffect } from "react";
 import { Toaster } from "sonner";
-
+import grad from "./assets/gradientGreen.svg"
 const faqItems = [
   {
     question:
@@ -46,9 +46,30 @@ function App() {
   }, []);
 
   return (
-    <> 
+    <d> 
     <Toaster richColors position="top-center"/>
-    
+    {/* <div className="gradient"></div> */}
+    <div className="absolute -z-10 w-full h-[40dvh]">
+ <img src={grad}/>
+
+    </div>
+    <div className="absolute top-[0%] -z-10 w-full h-[40dvh]">
+ <img src={grad}/>
+
+    </div>
+    <div className="absolute top-[250%] -z-10 w-full h-[40dvh]">
+ <img src={grad}/>
+
+    </div>
+    <div className="absolute top-[450%] -z-10 w-full h-[40dvh]">
+ <img src={grad}/>
+
+    </div>
+    <div className="absolute top-[650%] -z-10 w-full h-[40dvh]">
+ <img src={grad}/>
+
+    </div>
+
       <Header />
       <HeroSec />
       <AboutUs />
@@ -57,7 +78,7 @@ function App() {
       <FaqSection faqItems={faqItems} />
       <Contact />
       <Footer />
-    </>
+    </d>
   );
 }
 

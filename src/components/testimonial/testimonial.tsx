@@ -1,6 +1,5 @@
 import "./testimonial.css";
 
-
 // import group7227 from '../../assets/Group 7227.png'
 import group7227 from "../../assets/testimonials.svg";
 import group7254 from "../../assets/Group 7254.png";
@@ -19,13 +18,20 @@ const testimonial = () => {
                     <div className="pentagon-2"></div> */}
           <div className="testWrapperr" id="section5">
             <div className="innerLti ">
-            <img className="imgTest h-[180px] " src={testimonialsText} alt="" />
-              <img className="imgTest  hover:shadow-black transition-all shadow-2xl p-4 rounded-2xl " src={group7338} alt="" />
-           
+              <img
+                className="imgTest h-[180px] "
+                src={testimonialsText}
+                alt=""
+              />
+              <img
+                className="imgTest  p-4 rounded-2xl "
+                src={group7338}
+                alt=""
+              />
             </div>
             <div className="innerRti">
               <img
-                className="testimonial-image imageTest mt-4 hover:shadow-black transition-all shadow-2xl p-4 rounded-2xl "
+                className="testimonial-image imageTest mt-4 p-4 rounded-2xl "
                 src={group7227}
                 alt="proof"
               />
@@ -38,12 +44,28 @@ const testimonial = () => {
               <img className="imgTest" src={group7254} alt="" />
               <div className="imgWrapperTest">
                 <div className="innerLti">
-                  <img className="imgTest  hover:shadow-black transition-all  m-2  shadow-2xl p-4 rounded-2xl " src={group7329} alt="" />
-                  <img className="imgTest  hover:shadow-black transition-all  m-2  shadow-2xl p-4 rounded-2xl " src={group7332} alt="" />
+                  <img
+                    className="imgTest   m-2 p-4 rounded-2xl "
+                    src={group7329}
+                    alt=""
+                  />
+                  <img
+                    className="imgTest   m-2   p-4 rounded-2xl "
+                    src={group7332}
+                    alt=""
+                  />
                 </div>
                 <div className="innerRti">
-                  <img className="imgTest  hover:shadow-black transition-all  m-2  shadow-2xl p-4 rounded-2xl " src={group7330} alt="" />
-                  <img className="imgTest  hover:shadow-black transition-all m-2 shadow-2xl p-4 rounded-2xl " src={group7331} alt="" />
+                  <img
+                    className="imgTest  p-4  "
+                    src={group7330}
+                    alt=""
+                  />
+                  <img
+                    className="imgTest  p-4 "
+                    src={group7331}
+                    alt=""
+                  />
                 </div>
               </div>
             </div>

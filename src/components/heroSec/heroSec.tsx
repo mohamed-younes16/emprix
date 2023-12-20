@@ -52,9 +52,9 @@ const heroSec = () => {
               ever-evolving digital marketplace.
             </p>
           </div>
-          <div className="colRT mb-7 flex-wrap justify-center">
+          <div className="colRT mb-7 flex gap-4 flex-wrap justify-center">
             <div className="innerLT">
-              <div className="cellTop  w-full  max-md:h-[390px] max-sm:h-[300px]  hover:shadow-black transition-all shadow-2xl p-4 rounded-2xl  flex flex-col items-center">
+              <div className="cellTop  w-full  max-md:h-[390px] max-sm:h-[300px]  p-4 rounded-2xl  flex flex-col items-center">
                 <img src={group_7318} alt="Facebook Ads" />
                 <div className="contTextim">
                   <h6>Facebook Ads</h6>
@@ -64,7 +64,7 @@ const heroSec = () => {
                   </p>
                 </div>
               </div>
-              <div className="cellBtm  w-full     max-md:h-[390px]  max-sm:h-[300px]  hover:shadow-black transition-all shadow-2xl p-4 rounded-2xl   flex flex-col items-center">
+              <div className="cellBtm  w-full     max-md:h-[390px]  max-sm:h-[300px]  p-4 rounded-2xl   flex flex-col items-center">
                 <img src={group7319} alt="retargeting" />
                 <div className="contTextim">
                   <h6>Retargeting Campaigns</h6>
@@ -75,8 +75,8 @@ const heroSec = () => {
                 </div>
               </div>
             </div>
-            <div className="innerRT mt-7">
-              <div className="cellTop  w-full   max-md:h-[390px] max-sm:h-[300px]   hover:shadow-black transition-all shadow-2xl p-4 rounded-2xl flex flex-col items-center">
+            <div className="innerRT max-sm:mt-7">
+              <div className="cellTop  w-full   max-md:h-[390px] max-sm:h-[300px]   p-4 rounded-2xl flex flex-col items-center">
                 <img src={group7321} alt="Audience Building" />
                 <div className="contTextim">
                   <h6 className="font-bold">Audience Building</h6>
@@ -86,8 +86,8 @@ const heroSec = () => {
                   </p>
                 </div>
               </div>
-              <div className="cellBtm w-full   max-md:h-[390px]  max-sm:h-[300px]   hover:shadow-black transition-all shadow-2xl p-4 rounded-2xl  flex flex-col items-center">
-                <img src={group7320} alt="content strategy" /> 
+              <div className="cellBtm w-full   max-md:h-[390px]  max-sm:h-[300px]   p-4 rounded-2xl  flex flex-col items-center">
+                <img src={group7320} alt="content strategy" />
                 <div className="contTextim">
                   <h6 className="font-bold">Content Strategy</h6>
                   <p>
