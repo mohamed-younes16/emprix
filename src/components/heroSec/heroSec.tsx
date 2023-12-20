@@ -51,7 +51,7 @@ const heroSec = () => {
           </div>
           <div className="colRT flex-wrap justify-center">
             <div className="innerLT">
-              <div className="cellTop  flex flex-col items-center">
+              <div className="cellTop  hover:shadow-black transition-all shadow-2xl p-4 rounded-2xl  flex flex-col items-center">
                 <img src={group_7318} alt="Facebook Ads" />
                 <div className="contTextim">
                   <h6>Facebook Ads</h6>
@@ -61,7 +61,7 @@ const heroSec = () => {
                   </p>
                 </div>
               </div>
-              <div className="cellBtm  flex flex-col items-center">
+              <div className="cellBtm  hover:shadow-black transition-all shadow-2xl p-4 rounded-2xl   flex flex-col items-center">
                 <img src={group7319} alt="retargeting" />
                 <div className="contTextim">
                   <h6>Retargeting Campaigns</h6>
@@ -73,20 +73,20 @@ const heroSec = () => {
               </div>
             </div>
             <div className="innerRT">
-              <div className="cellTop flex flex-col items-center">
+              <div className="cellTop  hover:shadow-black transition-all shadow-2xl p-4 rounded-2xl flex flex-col items-center">
                 <img src={group7321} alt="Audience Building" />
                 <div className="contTextim">
-                  <h6>Audience Building</h6>
+                  <h6 className="font-bold">Audience Building</h6>
                   <p>
                     Growing your brand's Facebook<br></br> presence by
                     attracting genuine<br></br> followers.
                   </p>
                 </div>
               </div>
-              <div className="cellBtm  flex flex-col items-center">
+              <div className="cellBtm  hover:shadow-black transition-all shadow-2xl p-4 rounded-2xl  flex flex-col items-center">
                 <img src={group7320} alt="content strategy" />
                 <div className="contTextim">
-                  <h6>Content Strategy</h6>
+                  <h6  className="font-bold">Content Strategy</h6>
                   <p>
                     Curating posts that resonate with<br></br> your brand
                     identity and engage<br></br> your audience.

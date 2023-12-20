@@ -18,13 +18,13 @@ const testimonial = () => {
           {/* <div className="pentagon-1"></div>
                     <div className="pentagon-2"></div> */}
           <div className="testWrapperr" id="section5">
-            <div className="innerLti">
-              <img className="imgTest" src={group7338} alt="" />
-              <img className="imgTest" src={group7328} alt="testimonials" />
+            <div className="innerLti ">
+              <img className="imgTest  hover:shadow-black transition-all shadow-2xl p-4 rounded-2xl " src={group7338} alt="" />
+              <img className="imgTest  hover:shadow-black transition-all shadow-2xl p-4 rounded-2xl " src={group7328} alt="testimonials" />
             </div>
             <div className="innerRti">
               <img
-                className="testimonial-image imageTest"
+                className="testimonial-image imageTest  hover:shadow-black transition-all shadow-2xl p-4 rounded-2xl "
                 src={group7227}
                 alt="proof"
               />
@@ -37,12 +37,12 @@ const testimonial = () => {
               <img className="imgTest" src={group7254} alt="" />
               <div className="imgWrapperTest">
                 <div className="innerLti">
-                  <img className="imgTest" src={group7329} alt="" />
-                  <img className="imgTest" src={group7332} alt="" />
+                  <img className="imgTest  hover:shadow-black transition-all  m-2  shadow-2xl p-4 rounded-2xl " src={group7329} alt="" />
+                  <img className="imgTest  hover:shadow-black transition-all  m-2  shadow-2xl p-4 rounded-2xl " src={group7332} alt="" />
                 </div>
                 <div className="innerRti">
-                  <img className="imgTest" src={group7330} alt="" />
-                  <img className="imgTest" src={group7331} alt="" />
+                  <img className="imgTest  hover:shadow-black transition-all  m-2  shadow-2xl p-4 rounded-2xl " src={group7330} alt="" />
+                  <img className="imgTest  hover:shadow-black transition-all m-2 shadow-2xl p-4 rounded-2xl " src={group7331} alt="" />
                 </div>
               </div>
             </div>

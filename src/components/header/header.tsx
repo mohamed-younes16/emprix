@@ -92,7 +92,7 @@ const Header: React.FC = () => {
             {/* <li><a href="#section3">Pricing</a></li> */}
             
           </ul>
-          <a className="headBtnContact" href="#section6">
+          <a className="headBtnContact hover:scale-105 active:scale-95 transition-all" href="#section6">
             Contact Us
           </a>
         </div>
