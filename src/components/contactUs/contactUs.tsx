@@ -22,10 +22,10 @@ const ContactForm: React.FC = () => {
     VITE_PUBLIC_KEYOF_EMAILJS,
   
   } = import.meta.env;
-
+ 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
-  ) => {
+  ) => { 
     const { name, value } = e.target;
     setFormData({
       ...formData,
@@ -50,9 +50,6 @@ const ContactForm: React.FC = () => {
         (result: any) => {
           console.log(result)
         result.status == 200 && toast.success("your message has been  sent successfully ✅")
-        },
-        () => {
-          toast.error("Error Happend")
         }
       );
   };

@@ -45,8 +45,8 @@ function App() {
   }, []);
 
   return (
-    <>
-    <Toaster richColors/>
+    <> 
+    <Toaster richColors position="top-center"/>
       <div className="gradient"></div>
       <Header />
       <HeroSec />
