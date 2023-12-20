@@ -62,7 +62,7 @@ const footer = () => {
             />
           </div>
         </div>
-        <div className="btmRow  text-white flex justify-center gap-5 p-3 !bg-black">
+        <div className="btmRow flex-wrap  text-white flex justify-center gap-5 p-3 !bg-black">
           <div className="">
             <p>
               © 2023 &nbsp; <span className="spanfot"> Emprix Marketing</span>{" "}

@@ -66,14 +66,14 @@ const Header: React.FC = () => {
               />
             </li>
             <li className="group relative overflow-hidden">
-              <a href="#section1">Services</a>
+              <a href="#section2">Services</a>
               <div
                 className="absolute h-1 -bottom-0 w-full transition-all  
                -left-full group-hover:left-0 bg-cyan-600 "
               />
             </li>
             <li className="group relative overflow-hidden">
-              <a href="#section1">Testimonials</a>
+              <a href="#section5">Testimonials</a>
               <div
                 className="absolute h-1 -bottom-0 w-full transition-all  
                -left-full group-hover:left-0 bg-cyan-600 "
@@ -82,7 +82,7 @@ const Header: React.FC = () => {
         
 
             <li className="group relative overflow-hidden">
-              <a href="#section1">About Us</a>
+              <a href="#section4">About Us</a>
               <div
                 className="absolute h-1 -bottom-0 w-full transition-all  
                -left-full group-hover:left-0 bg-cyan-600 "

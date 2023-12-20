@@ -162,24 +162,7 @@
     width: 63%;
   }
 
-  #root
-    > div.wrapOuter
-    > div
-    > div.outWrap
-    > div
-    > div.imgWrapperTest
-    > div.innerLti
-    > img:nth-child(1),
-  #root
-    > div.wrapOuter
-    > div
-    > div.outWrap
-    > div
-    > div.imgWrapperTest
-    > div.innerRti
-    > img:nth-child(1) {
-    transform: translateX(-18px);
-  }
+
 
   .testWrapperr {
     display: flex;
