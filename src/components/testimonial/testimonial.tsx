@@ -19,7 +19,7 @@ const testimonial = () => {
                     <div className="pentagon-2"></div> */}
           <div className="testWrapperr" id="section5">
             <div className="innerLti">
-              <img className="imgTestt" src={group7338} alt="" />
+              <img className="imgTest" src={group7338} alt="" />
               <img className="imgTest" src={group7328} alt="testimonials" />
             </div>
             <div className="innerRti">

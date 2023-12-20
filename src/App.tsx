@@ -10,6 +10,7 @@ import Lenis from "@studio-freight/lenis";
 import "./App.css";
 import "./Styles.css";
 import { useEffect } from "react";
+import { Toaster } from "sonner";
 
 const faqItems = [
   {
@@ -33,7 +34,7 @@ const faqItems = [
 
 function App() {
   useEffect(() => {
-    const lenis = new Lenis();
+    const lenis = new Lenis({duration:.6});
 
     function raf(time: any) {
       lenis.raf(time);
@@ -45,6 +46,7 @@ function App() {
 
   return (
     <>
+    <Toaster richColors/>
       <div className="gradient"></div>
       <Header />
       <HeroSec />

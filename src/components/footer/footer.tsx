@@ -30,7 +30,7 @@ const footer = () => {
 
   return (
     <>
-      <div className="footerWrappr  ">
+      <div className="footerWrappr  mt-28">
         <div className="topRow">
           <img className="imgFoot" src={rec197} alt="" />
           <p className="pFooter">

@@ -37,10 +37,8 @@ input::placeholder {
 }
 
 .contact-button {
-
-  background: linear-gradient(91.44deg, #0866cc -10.25%, #2e9ff8 150.7%);
-
-  color: white;
+  background: linear-gradient(91.44deg, #000000 -10.25%, #565656 150.7%) !important;
+  color: white !important;
   position: relative;
   left: 70%;
 }

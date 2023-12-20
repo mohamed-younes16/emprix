@@ -51,7 +51,7 @@ const FaqSection: React.FC<FaqSectionProps> = ({ faqItems }) => {
 
                 <div
                   className={`transition-all overflow-hidden flex faq-answer h-[100px] 
-                    ${activeIndex !== index && " !h-[0px]  "}`}
+                    ${activeIndex !== index && " !h-[0px] !m-0  "}`}
                 >
                   {item.answer}
                 </div>

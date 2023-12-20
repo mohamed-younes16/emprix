@@ -32,7 +32,11 @@ const Header: React.FC = () => {
   }, []);
 
   return (
-    <header className={` backdrop-blur-md fixed header ${isHeaderVisible ? "visible" : ""}`}>
+    <header
+      className={` backdrop-blur-md fixed header ${
+        isHeaderVisible ? "visible" : ""
+      }`}
+    >
       <nav className="nav  ">
         <div className="logo min-w-[200px] ">
           <img className="imgBbar" src={IMAGElt} alt="" />
@@ -47,26 +51,48 @@ const Header: React.FC = () => {
           <div className="bar"></div>
         </div>
         <div className="aderNavWrap">
-          <ul className={`menu !text-nowrap  transition-all ${isMobileMenuOpen ?
-             "open  rounded-bl-xl " : "max-[850px]:translate-x-full "}`}>
-            <li>
+          <ul
+            className={`menu !text-nowrap !gap-0 transition-all ${
+              isMobileMenuOpen
+                ? "open  rounded-bl-xl overflow-hidden max-[850px]:shadow-2xl max-[850px]:shadow-black"
+                : "max-[850px]:translate-x-full "
+            }`}
+          >
+            <li className="group relative overflow-hidden">
               <a href="#section1">Home</a>
+              <div
+                className="absolute h-1 -bottom-0 w-full transition-all  
+               -left-full group-hover:left-0 bg-cyan-600 "
+              />
             </li>
-            <li>
-              <a href="#section2">Services</a>
+            <li className="group relative overflow-hidden">
+              <a href="#section1">Services</a>
+              <div
+                className="absolute h-1 -bottom-0 w-full transition-all  
+               -left-full group-hover:left-0 bg-cyan-600 "
+              />
             </li>
+            <li className="group relative overflow-hidden">
+              <a href="#section1">Testimonials</a>
+              <div
+                className="absolute h-1 -bottom-0 w-full transition-all  
+               -left-full group-hover:left-0 bg-cyan-600 "
+              />
+            </li>
+        
+
+            <li className="group relative overflow-hidden">
+              <a href="#section1">About Us</a>
+              <div
+                className="absolute h-1 -bottom-0 w-full transition-all  
+               -left-full group-hover:left-0 bg-cyan-600 "
+              />
+            </li>
+
             {/* <li><a href="#section3">Pricing</a></li> */}
-            <li>
-              <a href="#section4">About Us</a>
-            </li>
-            <li>
-              <a href="#section5">Testimonials</a>
-            </li>
-            <li className="hideListing">
-              <a href="#section6">Contact Us</a>
-            </li>
+            
           </ul>
-          <a className="headBtnContact" href="">
+          <a className="headBtnContact" href="#section6">
             Contact Us
           </a>
         </div>

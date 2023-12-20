@@ -7,6 +7,7 @@ import group7340 from "../../assets/Group 7340.svg";
 // import vector from "../../assets/Vector.png";
 import basilinsta from "../../assets/basil_instagram-solid.png";
 import waves from "../../assets/waves.svg";
+import { toast } from "sonner";
 
 const ContactForm: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -14,6 +15,13 @@ const ContactForm: React.FC = () => {
     email: "",
     message: "",
   });
+  const {
+    VITE_TEMPLATE_KEY,
+
+    VITE_SERVICE_KEY,
+    VITE_PUBLIC_KEYOF_EMAILJS,
+  
+  } = import.meta.env;
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
@@ -29,31 +37,34 @@ const ContactForm: React.FC = () => {
     e.preventDefault();
     emailjs
       .send(
-        "service_gs498hk",
-        "template_ggda3fg",
+        VITE_SERVICE_KEY,
+       VITE_TEMPLATE_KEY,
         {
           from_name: formData.name,
           from_email: formData.email,
           message: formData.message,
         },
-        "B164vLhOO6HuPrZsJ"
+      VITE_PUBLIC_KEYOF_EMAILJS
       )
       .then(
         (result: any) => {
-          console.log(result);
+          console.log(result)
+        result.status == 200 && toast.success("your message has been  sent successfully ✅")
         },
         (error: any) => {
-          console.log(error.text);
+          toast.error("Error Happend")
         }
       );
-    console.log("Form submitted with data:", formData);
   };
 
   return (
     <>
       <div className="formSec" id="section6">
-        <div className="formWrapper border-white border-2
-         rounded-lg backdrop-blur-md relative flex flex-col ">
+        <div
+          className="formWrapper shadow-2xl shadow-black transition-all
+           cursor-pointer border-white border-2 
+         rounded-lg backdrop-blur-md relative flex flex-col "
+        >
           <img
             src={waves}
             className="absolute -z-10 object-cover h-1/2 w-full "
@@ -61,7 +72,7 @@ const ContactForm: React.FC = () => {
           />
           <img
             src={waves}
-            className="absolute -z-10 top-1/2 object-cover h-1/2 w-full "
+            className="absolute  rotate-180 -z-10 top-1/2 object-cover h-1/2 w-full "
             alt=""
           />
           <img className="imgFormWrap" src={group7340} alt="" />
