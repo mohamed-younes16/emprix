@@ -16,9 +16,9 @@ const ContactForm: React.FC = () => {
     email: "",
     message: "",
   });
-  const { VITE_TEMPLATE_KEY, VITE_SERVICE_KEY, VITE_PUBLIC_KEYOF_EMAILJS } =
-    import.meta.env;
-console.log({ VITE_TEMPLATE_KEY, VITE_SERVICE_KEY, VITE_PUBLIC_KEYOF_EMAILJS })
+//   const { VITE_TEMPLATE_KEY, VITE_SERVICE_KEY, VITE_PUBLIC_KEYOF_EMAILJS } =
+//     import.meta.env;
+// console.log({ VITE_TEMPLATE_KEY, VITE_SERVICE_KEY, VITE_PUBLIC_KEYOF_EMAILJS })
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
