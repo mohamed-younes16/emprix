@@ -53,8 +53,8 @@ const ContactForm: React.FC = () => {
     <>
       <div className="formSec" id="section6">
         <div
-          className="formWrapper shadow-2xl shadow-black transition-all
-           cursor-pointer border-white border-2 
+          className="formWrapper  transition-all
+           cursor-pointer 
          rounded-lg backdrop-blur-md relative flex flex-col "
         >
           <img
@@ -62,11 +62,7 @@ const ContactForm: React.FC = () => {
             className="absolute -z-10 object-cover h-1/2 w-full "
             alt=""
           />
-          <img
-            src={waves}
-            className="absolute  rotate-180 -z-10 top-1/2 object-cover h-1/2 w-full "
-            alt=""
-          />
+       
           <img className="imgFormWrap" src={group7340} alt="" />
           <form
             style={{}}
