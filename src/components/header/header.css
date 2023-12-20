@@ -153,7 +153,6 @@
     right: 0px;
     width: 200px;
     backdrop-filter: blur(10px);
-    background-image: url(/src/assets/waves.svg);
     background-color: white;
     background-size: cover;
     background-position: 0;

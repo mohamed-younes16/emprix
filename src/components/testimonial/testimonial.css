@@ -43,13 +43,9 @@
 }
 .outWrap {
   width: 100vw;
-
   padding-top: 60px;
-  margin-top: 30px;
-
   width: 100vw;
-  padding-top: 60px;
-  margin-top: 30px;
+
   /* background-color: #A0CEFF38; */
 
 }
@@ -120,7 +116,7 @@
 
   .outWrap {
     padding-bottom: 30px;
-    padding-top: 30px;
+
   }
 
   .blogwrap > .imgTest {

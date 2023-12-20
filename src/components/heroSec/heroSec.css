@@ -282,7 +282,7 @@
   .innerLT,
   .innerRT {
     row-gap: 37px;
-    width: 62vw !important;
+    width: 40vw !important;
   }
 
   .contTextim {
@@ -412,7 +412,7 @@
   #root > div.sec2main > div > div.colRT > div.innerLT > div.cellTop > div > p,
   #root > div.sec2main > div > div.colRT > div.innerRT > div.cellBtm > div > p,
   #root > div.sec2main > div > div.colRT > div.innerLT > div.cellBtm > div > p {
-    font-size: 11.277px;
+    font-size: 9.277px;
     font-style: normal;
     font-weight: 400;
     letter-spacing: -0.175px;

@@ -7,7 +7,7 @@ import group7335 from "../../assets/Group 7335.png";
 import group7340 from "../../assets/Group 7340.svg";
 // import vector from "../../assets/Vector.png";
 import basilinsta from "../../assets/basil_instagram-solid.png";
-import waves from "../../assets/waves.svg";
+
 import { toast } from "sonner";
 
 const ContactForm: React.FC = () => {
@@ -55,13 +55,9 @@ const ContactForm: React.FC = () => {
         <div
           className="formWrapper  transition-all
            cursor-pointer 
-         rounded-lg backdrop-blur-md relative flex flex-col "
+         rounded-lg backdrop-blur-md  flex flex-col "
         >
-          <img
-            src={waves}
-            className="absolute -z-10 object-cover h-1/2 w-full "
-            alt=""
-          />
+        
        
           <img className="imgFormWrap" src={group7340} alt="" />
           <form
