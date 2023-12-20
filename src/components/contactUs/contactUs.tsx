@@ -18,7 +18,7 @@ const ContactForm: React.FC = () => {
   });
   const { VITE_TEMPLATE_KEY, VITE_SERVICE_KEY, VITE_PUBLIC_KEYOF_EMAILJS } =
     import.meta.env;
-
+console.log({ VITE_TEMPLATE_KEY, VITE_SERVICE_KEY, VITE_PUBLIC_KEYOF_EMAILJS })
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
@@ -33,14 +33,14 @@ const ContactForm: React.FC = () => {
     e.preventDefault();
     emailjs
       .send(
-        VITE_SERVICE_KEY,
-        VITE_TEMPLATE_KEY,
+       "service_gs498hk",
+        "template_ggda3fg",
         {
           from_name: formData.name,
           from_email: formData.email,
           message: formData.message,
         },
-        VITE_PUBLIC_KEYOF_EMAILJS
+        "B164vLhOO6HuPrZsJ"
       )
       .then((result: any) => {
         console.log(result);
