@@ -40,7 +40,7 @@ const heroSec = () => {
       </div>
 
       <div className="sec2main mt-20 max-md:mt-4">
-        <div className="sec2UnderMainPara !justify-center !items-center flex-wrap">
+        <div className="sec2UnderMainPara !justify-center !items-center md:flex-wrap ">
           <div className="colLtt mb-5 max-[1400px]:flex-col max-[1400px]:items-center  max-[1400px]:flex ">
             <img className="colLttImg" src={group7327} alt="" />
             {/* <div className="pentagon-1"></div> */}
@@ -52,7 +52,7 @@ const heroSec = () => {
               ever-evolving digital marketplace.
             </p>
           </div>
-          <div className="colRT mb-7 flex gap-4 flex-wrap justify-center">
+          <div className="colRT mb-7 flex gap-4 justify-center">
             <div className="innerLT">
               <div className="cellTop  w-full  max-md:h-[390px] max-sm:h-[300px]  p-4 rounded-2xl  flex flex-col items-center">
                 <img src={group_7318} alt="Facebook Ads" />
