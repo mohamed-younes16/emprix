@@ -12,7 +12,7 @@
 }
 .gradient {
 
-  position: absolute;
+  position: fixed;
   content: "";
   inset: 0;
   width: 100%;
@@ -21,15 +21,8 @@
   top: 80px;
   opacity: 0.15;
   z-index: -1;
-  /* background-image: radial-gradient(at 27% 37%, #3a8bfd 0, transparent 0),
-    radial-gradient(at 97% 21%, #00ff14 0, transparent 50%),
-    radial-gradient(at 52% 99%, #fd3a4e 0, transparent 100%),
-    radial-gradient(at 10% 29%, #ff0808 0, transparent 50%),
-    radial-gradient(at 97% 96%, #e4c795 0, transparent 50%),
-    radial-gradient(at 33% 50%, #8ca8e8 0, transparent 50%),
-    radial-gradient(at 79% 53%, #187ea9 0, transparent 50%); */
-    background-image: radial-gradient(at 27% 37%, #3a8bfd 0, transparent 0), radial-gradient(at 97% 21%, #00ff14 0, transparent 50%), radial-gradient(at 52% 99%, #db7777 0, transparent 100%), radial-gradient(at 10% 29%, #0055ff 0, transparent 50%), radial-gradient(at 97% 96%, #e4c795 0, transparent 50%), radial-gradient(at 33% 50%, #ff0000 0, #ff0000 50%), radial-gradient(at 79% 53%, #187ea9 0, transparent 50%);
-  
+    /* background-image: radial-gradient(at 27% 37%, #3a8bfd 0, transparent 0), radial-gradient(at 97% 21%, #00ff14 0, transparent 50%), radial-gradient(at 52% 99%, #db7777 0, transparent 100%), radial-gradient(at 10% 29%, #0055ff 0, transparent 50%), radial-gradient(at 97% 96%, #e4c795 0, transparent 50%), radial-gradient(at 33% 50%, #ff0000 0, #ff0000 50%), radial-gradient(at 79% 53%, #187ea9 0, transparent 50%); */
+    background-image: radial-gradient(at 27% 37%, #3a8bfd 0, transparent 0), radial-gradient(at 97% 21%, #0089ff 0, transparent 50%), radial-gradient(at 52% 99%, #db7777 0, transparent 100%), radial-gradient(at 10% 29%, #0055ff 0, transparent 50%), radial-gradient(at 97% 96%, #df00ff 0, transparent 50%), radial-gradient(at 33% 50%, #ed00ff 0, #d800ff 50%), radial-gradient(at 79% 53%, #187ea9 0, transparent 50%);
 }
 
 html {
