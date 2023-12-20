@@ -46,7 +46,7 @@ function App() {
   }, []);
 
   return (
-    <d> 
+    <> 
     <Toaster richColors position="top-center"/>
     {/* <div className="gradient"></div> */}
     <div className="absolute -z-10 w-full h-[40dvh]">
@@ -78,7 +78,7 @@ function App() {
       <FaqSection faqItems={faqItems} />
       <Contact />
       <Footer />
-    </d>
+    </>
   );
 }
 
