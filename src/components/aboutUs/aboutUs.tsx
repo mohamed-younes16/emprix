@@ -47,8 +47,8 @@ const aboutUs = () => {
               you.
             </p>
           </div>
-          <img src={group7326} className=" p-6 rounded-2xl mt-6" alt="" />
-          <img src={german} className=" p-6 rounded-2xl m-4" alt="" />
+          <img src={group7326} className=" p-6 rounded-2xl mt-6 hidden max-md:block" alt="" />
+          <img src={german} className=" p-6 hidden md:block rounded-2xl m-4" alt="" />
           <div className="points-div">
             <div className="point-1 point">
               <img src={group7322} alt=""></img>
