@@ -16,13 +16,13 @@ import { Toaster } from "sonner";
 const faqItems = [
   {
     question:
-      "What differentiates your Facebook marketing approach for businnes brands??",
+      "What differentiates your Facebook marketing approach for business brands??",
     answer:
       "We mix creative stories, smart plans based on data, and a good understanding of online selling to make special Facebook ads for each brand.",
   },
   {
     question:
-      "Can I see case studies or examples of past campaigns for businnes brands?",
+      "Can I see case studies or examples of past campaigns for business brands?",
     answer:
       "To access business brand case studies, please contact our sales or support team for relevant examples showcasing our past successes.",
   },
