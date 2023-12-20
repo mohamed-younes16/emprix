@@ -51,7 +51,7 @@ const ContactForm: React.FC = () => {
           console.log(result)
         result.status == 200 && toast.success("your message has been  sent successfully ✅")
         },
-        (error: any) => {
+        () => {
           toast.error("Error Happend")
         }
       );
