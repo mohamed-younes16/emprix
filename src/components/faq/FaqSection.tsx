@@ -1,7 +1,6 @@
 // FaqSection.tsx
 import React, { useState } from "react";
 import "./FaqSection.css"; // Import your CSS for styling (you can create this file)
-
 import group7333 from "../../assets/Group 7333.png";
 import group7234 from "../../assets/Group 7234.png";
 import group7339 from "../../assets/Group 7339.svg";

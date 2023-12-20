@@ -24,7 +24,7 @@ const faqItems = [
     question:
       "Can I see case studies or examples of past campaigns for businnes brands?",
     answer:
-      "To access businnes brand case studies, please contact our sales or support team for relevant examples showcasing our past successes.",
+      "To access business brand case studies, please contact our sales or support team for relevant examples showcasing our past successes.",
   },
   {
     question: "How do you measure the success of a campaign?",

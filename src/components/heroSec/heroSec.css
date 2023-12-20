@@ -256,7 +256,7 @@
   }
   .heroSec {
     padding-top: 40px !important; /*only on mobile view*/
-    padding: 40px;
+    padding: 10px;
   }
 
   #root > div.sec2main > div > div.colRT > div.innerRT > div.cellBtm > img,
