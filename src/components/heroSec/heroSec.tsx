@@ -46,7 +46,7 @@ const heroSec = () => {
             {/* <div className="pentagon-1"></div> */}
             <h1 id="section2">What We Offer</h1>
             <p>
-              We specialize in boosting businnes businesses through effective
+              We specialize in boosting business through effective
               social media marketing. Our goal is to enhance your brand's online
               presence, engage your target audience, and drive growth in the
               ever-evolving digital marketplace.
