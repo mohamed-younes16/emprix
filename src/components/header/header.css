@@ -1,0 +1,234 @@
+/* Header.css */
+/* Header.css */
+.header {
+  width: 100vw;
+
+  box-shadow: 0px 3px 12px 0px rgba(186, 186, 186, 0.25);
+  height: 4.5625rem;
+  display: flex;
+
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  /* border: solid black 1px; */
+}
+
+.visible {
+  transform: translateY(0);
+}
+
+.imgBbar {
+  width: 60px;
+}
+.imgBbarLt {
+  width: 140px;
+}
+
+.aderNavWrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  margin-left: 20px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px; /* Adjust padding as needed */
+  flex-wrap: nowrap;
+}
+
+.logo {
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  width: 30px;
+  height: 3px;
+  background-color: #333;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+.open .bar:nth-child(1) {
+  transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.open .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.open .bar:nth-child(3) {
+  transform: rotate(45deg) translate(-6px, -6px);
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu a {
+  color: black;
+  text-align: center;
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 137.193%; /* 1.20044rem */
+  text-transform: capitalize;
+}
+
+/* Mobile menu styles */
+@media (max-width: 850px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .logo {
+    align-items: center !important;
+    column-gap: 2px;
+  }
+
+  .bar {
+    width: 22px;
+    margin: 3px;
+  }
+
+  .imgBbar {
+    height: 25px;
+    width: auto;
+    object-fit: contain;
+    /*  */
+  }
+
+  .imgBbarLt {
+    height: 30px;
+    width: auto;
+    object-fit: contain;
+  }
+
+  .header {
+    height: 55px;
+  }
+
+  .hideListing {
+    display: block;
+    /* background-color: #9370db; */
+  }
+  .headBtnContact {
+    display: none !important;
+  }
+
+  .nav {
+    width: 100%;
+  }
+
+  .menu {
+    position: fixed;
+    flex-direction: column;
+    top: 55px;
+    right: 0px;
+    backdrop-filter: blur(10px);
+    background-image: url(/src/assets/waves.svg) ;
+    background-color: white;
+background-size: cover;
+
+background-position: 30% 50%;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 40;
+  }
+
+  .menu.open {
+    display: flex;
+  }
+
+  .menu li {
+    margin: 0;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .aderNavWrap {
+    position: absolute;
+  }
+  .hideListing {
+    display: none;
+  }
+  .headBtnContact {
+    width: 140px;
+    height: 43px;
+    background: linear-gradient(91deg, #0866cc -10.25%, #2e9ff8 150.7%);
+    border-radius: 17px;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    color: #fff;
+    /* text-align: center; */
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 137.193%;
+    text-transform: capitalize;
+    cursor: pointer;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+
+  .headBtnContact:hover {
+    background: linear-gradient(91deg, #ff7ca3 -10.25%, #ff9ff8 150.7%);
+  }
+}
+
+.hideListing {
+  display: none;
+}
+.headBtnContact {
+  width: 140px;
+  height: 43px;
+  background: linear-gradient(91deg, #0866cc -10.25%, #2e9ff8 150.7%);
+  border-radius: 17px;
+  text-align: center;
+  vertical-align: middle;
+  display: flex;
+  color: #fff;
+  /* text-align: center; */
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 137.193%;
+  text-transform: capitalize;
+  cursor: pointer;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.headBtnContact:hover {
+  background: linear-gradient(91deg, #ff7ca3 -10.25%, #ff9ff8 150.7%);
+}

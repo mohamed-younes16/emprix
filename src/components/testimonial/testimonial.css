@@ -1,0 +1,240 @@
+.wrapOuter {
+  max-width: 100vw;
+  overflow: hidden;
+}
+.wrapOne .pentagon-1 {
+  background-color: #ffebbf;
+  filter: blur(80px);
+  height: 230px;
+  border-radius: 100px;
+  width: 230px;
+  position: relative;
+  top: 10%;
+  left: -10%;
+}
+.wrapOne .pentagon-2 {
+  background-color: #ffcdcdb5;
+  filter: blur(80px);
+  height: 230px;
+  border-radius: 100px;
+  width: 230px;
+  position: relative;
+  top: 30vh;
+  left: 90%;
+}
+
+.wrapOne .pentagon-3 {
+  background-color: #ffebbf;
+  filter: blur(80px);
+  height: 230px;
+  border-radius: 100px;
+  width: 230px;
+  position: relative;
+  top: 10%;
+  left: 50%;
+}
+.blogwrap > .imgTest {
+  margin-top: 30px;
+}
+.testimonial-image {
+  height: auto;
+  width: 30vw;
+  transform: translate(30px, -90px);
+}
+.outWrap {
+  width: 100vw;
+
+  padding-top: 60px;
+  margin-top: 30px;
+
+  width: 100vw;
+  padding-top: 60px;
+  margin-top: 30px;
+  /* background-color: #A0CEFF38; */
+
+}
+.testWrapperr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -60px;
+}
+
+.innerRti,
+.innerLti {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.innerRti {
+  margin-top: 170px;
+}
+
+.blogwrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#section5 > div.innerLti > img:nth-child(1) {
+  display: none;
+  position: absolute;
+}
+
+.heading {
+  width: 20%;
+}
+.imgWrapperTest {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  left: 0;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+#section5 > div.innerLti > img:nth-child(2) {
+  display: block;
+  position: relative;
+}
+
+@media screen and (max-width: 786px) {
+  .testimonial-image {
+    height: auto;
+    width: 70vw;
+    transform: translate(0px, 0px);
+  }
+
+  .innerRti {
+    max-width: 690px;
+  }
+  .imgTest {
+    max-width: 300px !important;
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 0px;
+  }
+
+  .outWrap {
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+
+  .blogwrap > .imgTest {
+    margin-top: 0px;
+  }
+
+  #root
+    > div.wrapOuter
+    > div
+    > div.outWrap
+    > div
+    > div.imgWrapperTest
+    > div.innerLti
+    > img:nth-child(1),
+  #root
+    > div.wrapOuter
+    > div
+    > div.outWrap
+    > div
+    > div.imgWrapperTest
+    > div.innerLti
+    > img:nth-child(2),
+  #root
+    > div.wrapOuter
+    > div
+    > div.outWrap
+    > div
+    > div.imgWrapperTest
+    > div.innerRti
+    > img:nth-child(1),
+  #root
+    > div.wrapOuter
+    > div
+    > div.outWrap
+    > div
+    > div.imgWrapperTest
+    > div.innerRti
+    > img:nth-child(2) {
+    width: 63%;
+  }
+
+  #root
+    > div.wrapOuter
+    > div
+    > div.outWrap
+    > div
+    > div.imgWrapperTest
+    > div.innerLti
+    > img:nth-child(1),
+  #root
+    > div.wrapOuter
+    > div
+    > div.outWrap
+    > div
+    > div.imgWrapperTest
+    > div.innerRti
+    > img:nth-child(1) {
+    transform: translateX(-18px);
+  }
+
+  .testWrapperr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin-top: -200px; */
+    margin-top: 0px;
+  }
+
+  #root > div.wrapOuter > div > div.outWrap > div > img {
+    width: 40%;
+    padding-bottom: 36px;
+  }
+
+  #section5 > div.innerLti {
+    padding-top: 38px;
+    display: flex;
+    z-index: 3;
+  }
+
+  #section5 > div.innerLti > img:nth-child(2) {
+    display: none;
+    position: absolute !important;
+  }
+
+  #section5 > div.innerLti > img:nth-child(1) {
+    display: block !important;
+    position: relative !important;
+  }
+
+  .blogwrap,
+  .imgWrapperTest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* transition: 0.6s; */
+  }
+
+  .innerRti {
+    margin-top: 0;
+  }
+
+  .innerLti,
+  .innerRti {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.gradient-background {
+  background: linear-gradient(to bottom, #800080, #e6e6fa);
+  /* Adjust the colors and direction to your liking */
+  height: 100vh; /* Set the height to fill the entire viewport */
+}

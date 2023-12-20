@@ -1,0 +1,68 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  line-height: 1.5;
+  font-weight: 500;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+.gradient {
+
+  position: fixed;
+  content: "";
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  filter: blur(100px) saturate(150%);
+  top: 80px;
+  opacity: 0.15;
+  z-index: -1;
+  /* background-image: radial-gradient(at 27% 37%, #3a8bfd 0, transparent 0),
+    radial-gradient(at 97% 21%, #00ff14 0, transparent 50%),
+    radial-gradient(at 52% 99%, #fd3a4e 0, transparent 100%),
+    radial-gradient(at 10% 29%, #ff0808 0, transparent 50%),
+    radial-gradient(at 97% 96%, #e4c795 0, transparent 50%),
+    radial-gradient(at 33% 50%, #8ca8e8 0, transparent 50%),
+    radial-gradient(at 79% 53%, #187ea9 0, transparent 50%); */
+    background-image: radial-gradient(at 27% 37%, #3a8bfd 0, transparent 0), radial-gradient(at 97% 21%, #00ff14 0, transparent 50%), radial-gradient(at 52% 99%, #db7777 0, transparent 100%), radial-gradient(at 10% 29%, #0055ff 0, transparent 50%), radial-gradient(at 97% 96%, #e4c795 0, transparent 50%), radial-gradient(at 33% 50%, #ff0000 0, #ff0000 50%), radial-gradient(at 79% 53%, #187ea9 0, transparent 50%);
+  
+}
+
+html {
+  width: 100vw !important;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0 auto;
+
+  overflow-x: hidden;
+  /* transform: translateX(-50%); */
+}
+
+@media (max-width: 768px) {
+  /* body{
+    position: relative;
+    left: 10%;
+  } */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+div {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}

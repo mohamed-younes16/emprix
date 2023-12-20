@@ -1,0 +1,155 @@
+.formSec {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 80px;
+}
+
+.innerSecFormRt h1 {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-family: sans-serif;
+  border-bottom: 2px solid #2e9ff8;
+}
+
+input {
+  width: 100%;
+  padding: 26px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  border: 0.5px solid #0056bb;
+  font-family: "Inter", "Sans-sherif";
+}
+
+input::placeholder {
+  color: #999999;
+}
+
+#message {
+  width: 100%;
+  padding: 26px;
+  resize: none;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border: 0.5px solid #0056bb;
+  font-family: "Inter", "Sans-sherif";
+}
+
+.contact-button {
+
+  background: linear-gradient(91.44deg, #0866cc -10.25%, #2e9ff8 150.7%);
+
+  color: white;
+  position: relative;
+  left: 70%;
+}
+
+.cellForm1,
+.cellForm2,
+.cellForm3 {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  padding: 20px 12px;
+  border-bottom: 2px solid #2e9ff8;
+}
+
+.imgFotseter {
+  margin-top: 20px;
+}
+
+.contact-button {
+  padding: 10px 20px;
+}
+
+@media (max-width: 768px) {
+  .formSec {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .formWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+  }
+
+  .contact-button {
+    left: 58%;
+  }
+  input,
+  #message {
+    width: 250px;
+  }
+  .innerSecFormRt > h1 {
+    display: flex;
+    font-family: sans-serif;
+    justify-content: center;
+    font-weight: bold;
+    /* font-family: sans-serif; */
+  }
+  .imgFormWrap {
+    width: 45%;
+    padding-bottom: 35px;
+  }
+
+  .cellForm1,
+  .cellForm2,
+  .cellForm3 {
+    border-bottom: 2px solid #2e9ff8;
+    font-size: 11.056px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 137.193%;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  #section6 > div.innerSecFormRt > div > div.cellForm1 > p,
+  #section6 > div.innerSecFormRt > div > div.cellForm2 > p,
+  #section6 > div.innerSecFormRt > div > div.cellForm3 > p {
+    width: 48%;
+  }
+
+  .imgFotseter {
+    padding-top: 20px;
+    padding-bottom: 53px;
+    width: 74%;
+  }
+  button {
+    left: 60%;
+  }
+
+  .inInnerSecTxt {
+    width: 74%;
+  }
+
+  #section6 > div.innerSecFormRt > div > h1 {
+    padding: 16px;
+    border-bottom: 2px solid #2e9ff8;
+  }
+
+  .innerSecFormRt > * {
+    border-bottom: 0cm;
+  }
+
+  .innerSecFormRt {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+  }
+}
+
+.gradient-background {
+  background: linear-gradient(to bottom, #800080, #e6e6fa);
+  /* Adjust the colors and direction to your liking */
+  height: 100vh; /* Set the height to fill the entire viewport */
+}

@@ -1,0 +1,82 @@
+.outerWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .bannerWrap {
+    border-top: 2px solid #343434;
+    border-bottom: 2px solid #343434;
+    text-align: center;
+    display: flex;
+    flex-direction: column !important;
+  }
+  h1 {
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+  }
+  .metrixCell1,
+  .metrixCell2,
+  .metrixCell3 {
+    padding: 20px;
+  }
+}
+
+.metrixCell1,
+.metrixCell2,
+.metrixCell3 {
+  padding: 20px;
+}
+
+.bannerWrap {
+  display: flex;
+  flex-direction: row;
+  width: 82%;
+  flex-basis: auto;
+  align-items: center;
+  border-top: 1px solid #0056bb;
+  border-bottom: 1px solid #0056bb;
+  margin-top: 80px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: space-evenly;
+}
+#root > div.outerWrap > div > h2 {
+  color: #0e0e0e;
+  font-family: Lato;
+  font-size: 33.91px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38.5px; /* 113.536% */
+}
+
+#root > div.outerWrap > div > div.metrixCell1 > h1,
+#root > div.outerWrap > div > div.metrixCell2 > h1,
+#root > div.outerWrap > div > div.metrixCell3 > h1 {
+  color: #000;
+  text-align: center;
+  font-family: Lato;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 25px;
+}
+
+#root > div.outerWrap > div > div.metrixCell1 > p,
+#root > div.outerWrap > div > div.metrixCell2 > p,
+#root > div.outerWrap > div > div.metrixCell3 > p {
+  color: #343434;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* #root > div.bannerWrap > h2{
+    /* flex-basis: 28%; 
+    width: 300px;
+} */
