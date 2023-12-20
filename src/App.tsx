@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import Header from "./components/header/header";
 import HeroSec from "./components/heroSec/heroSec";
 import Banner from "./components/banner/banner";
@@ -47,7 +48,7 @@ function App() {
   return (
     <> 
     <Toaster richColors position="top-center"/>
-      <div className="gradient"></div>
+    
       <Header />
       <HeroSec />
       <AboutUs />

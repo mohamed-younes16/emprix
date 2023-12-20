@@ -155,14 +155,22 @@
   padding-bottom: 80px;
 }
 
-#group121 {
+/* #group121 {
   width: 180px;
   height: auto;
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50px);
-}
 
+ 
+} */
+
+@media (max-width: 768px) {
+  /* #group121 {
+  
+    left: 50%;
+    transform: translateX(-25%) translateY(-50px);
+    
+  } */
+}
 .sec2main {
   width: 100vw;
   height: 900px;
@@ -175,8 +183,13 @@
 .colLtt {
   flex-basis: 35%;
   /* padding: 40px; */
-  margin-top: 140px;
+  margin-top: 290px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
+
 
 .btnContact:active,
 .btnContact:hover {
@@ -238,7 +251,9 @@
     max-width: 100vw !important;
     object-fit: cover;
   }
-
+  .colLtt  {
+    margin-top: 80px !important;
+  }
   .heroSec {
     padding-top: 40px !important; /*only on mobile view*/
     padding: 40px;
@@ -267,7 +282,7 @@
   .innerLT,
   .innerRT {
     row-gap: 37px;
-    width: 65vw !important;
+    width: 62vw !important;
   }
 
   .contTextim {
@@ -284,7 +299,7 @@
   }
 
   .colLttImg {
-    width: 30% !important;
+    width: 45% !important;
   }
 
   .innerRT {
@@ -370,7 +385,7 @@
   }
   .sec2UnderMainPara {
     margin-top: 10px;
-    padding: 40px;
+
     flex-direction: column !important;
   }
 

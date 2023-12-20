@@ -31,7 +31,7 @@ const footer = () => {
 
   return (
     <>
-      <div className="footerWrappr  mt-28">
+      <div className="footerWrappr  mt-28 max-md:mt-10">
         <div className="topRow">
           <img className="imgFoot !text-black" src={rec197} alt="" />
           <p className="pFooter">

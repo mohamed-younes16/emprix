@@ -12,7 +12,7 @@ import group7327 from "../../assets/Group 7327.png";
 const heroSec = () => {
   return (
     <>
-      <div className="heroSec mt-[75px]" id="section1">
+      <div className="heroSec mt-[75px] " id="section1">
         {/* <div className="pentagon-1"></div>
             <div className="pentagon-2"></div>
             <div className="pentagon-3"></div> */}
@@ -35,13 +35,13 @@ const heroSec = () => {
         </a>
         <img id="group7317" src={group7317} alt="main Section" />
       </div>
-      <div className="flex h-[190px] justify-center">
-        <img id="group121 h-[190px] " src={group121} alt="" />
+      <div className="flex  justify-center">
+        <img id="group121" className="h-[150px] " src={group121} alt="" />
       </div>
 
-      <div className="sec2main mt-20">
+      <div className="sec2main mt-20 max-md:mt-4">
         <div className="sec2UnderMainPara !justify-center !items-center flex-wrap">
-          <div className="colLtt max-[1400px]:flex-col max-[1400px]:items-center  max-[1400px]:flex ">
+          <div className="colLtt mb-5 max-[1400px]:flex-col max-[1400px]:items-center  max-[1400px]:flex ">
             <img className="colLttImg" src={group7327} alt="" />
             {/* <div className="pentagon-1"></div> */}
             <h1 id="section2">What We Offer</h1>
@@ -52,9 +52,9 @@ const heroSec = () => {
               ever-evolving digital marketplace.
             </p>
           </div>
-          <div className="colRT flex-wrap justify-center">
+          <div className="colRT mb-7 flex-wrap justify-center">
             <div className="innerLT">
-              <div className="cellTop  w-full  max-md:h-[370px]  hover:shadow-black transition-all shadow-2xl p-4 rounded-2xl  flex flex-col items-center">
+              <div className="cellTop  w-full  max-md:h-[390px] max-sm:h-[300px]  hover:shadow-black transition-all shadow-2xl p-4 rounded-2xl  flex flex-col items-center">
                 <img src={group_7318} alt="Facebook Ads" />
                 <div className="contTextim">
                   <h6>Facebook Ads</h6>
@@ -64,7 +64,7 @@ const heroSec = () => {
                   </p>
                 </div>
               </div>
-              <div className="cellBtm  w-full     max-md:h-[370px]  hover:shadow-black transition-all shadow-2xl p-4 rounded-2xl   flex flex-col items-center">
+              <div className="cellBtm  w-full     max-md:h-[390px]  max-sm:h-[300px]  hover:shadow-black transition-all shadow-2xl p-4 rounded-2xl   flex flex-col items-center">
                 <img src={group7319} alt="retargeting" />
                 <div className="contTextim">
                   <h6>Retargeting Campaigns</h6>
@@ -76,7 +76,7 @@ const heroSec = () => {
               </div>
             </div>
             <div className="innerRT mt-7">
-              <div className="cellTop  w-full   max-md:h-[370px]  hover:shadow-black transition-all shadow-2xl p-4 rounded-2xl flex flex-col items-center">
+              <div className="cellTop  w-full   max-md:h-[390px] max-sm:h-[300px]   hover:shadow-black transition-all shadow-2xl p-4 rounded-2xl flex flex-col items-center">
                 <img src={group7321} alt="Audience Building" />
                 <div className="contTextim">
                   <h6 className="font-bold">Audience Building</h6>
@@ -86,8 +86,8 @@ const heroSec = () => {
                   </p>
                 </div>
               </div>
-              <div className="cellBtm w-full   max-md:h-[370px]   hover:shadow-black transition-all shadow-2xl p-4 rounded-2xl  flex flex-col items-center">
-                <img src={group7320} alt="content strategy" />
+              <div className="cellBtm w-full   max-md:h-[390px]  max-sm:h-[300px]   hover:shadow-black transition-all shadow-2xl p-4 rounded-2xl  flex flex-col items-center">
+                <img src={group7320} alt="content strategy" /> 
                 <div className="contTextim">
                   <h6 className="font-bold">Content Strategy</h6>
                   <p>

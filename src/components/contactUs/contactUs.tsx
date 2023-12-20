@@ -16,16 +16,12 @@ const ContactForm: React.FC = () => {
     email: "",
     message: "",
   });
-  const {
-    VITE_TEMPLATE_KEY,
-    VITE_SERVICE_KEY,
-    VITE_PUBLIC_KEYOF_EMAILJS,
-  
-  } = import.meta.env;
- 
+  const { VITE_TEMPLATE_KEY, VITE_SERVICE_KEY, VITE_PUBLIC_KEYOF_EMAILJS } =
+    import.meta.env;
+
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
-  ) => { 
+  ) => {
     const { name, value } = e.target;
     setFormData({
       ...formData,
@@ -38,20 +34,19 @@ const ContactForm: React.FC = () => {
     emailjs
       .send(
         VITE_SERVICE_KEY,
-       VITE_TEMPLATE_KEY,
+        VITE_TEMPLATE_KEY,
         {
           from_name: formData.name,
           from_email: formData.email,
           message: formData.message,
         },
-      VITE_PUBLIC_KEYOF_EMAILJS
+        VITE_PUBLIC_KEYOF_EMAILJS
       )
-      .then(
-        (result:any) => {
-          console.log(result)
-        result.status == 200 && toast.success("your message has been  sent successfully ✅")
-        }
-      );
+      .then((result: any) => {
+        console.log(result);
+        result.status == 200 &&
+          toast.success("your message has been  sent successfully ✅");
+      });
   };
 
   return (
@@ -117,7 +112,8 @@ const ContactForm: React.FC = () => {
               />
             </div>
             <button
-              className="contact-button rounded-lg text-black !border-black !border-2"
+              className="contact-button rounded-lg text-black
+               !border-white  bg-blue-600 !border-2"
               type="submit"
             >
               Send
@@ -125,7 +121,7 @@ const ContactForm: React.FC = () => {
           </form>
         </div>
         <div className="innerSecFormRt flex-col flex justify-center">
-          <div className="inInnerSecTxt max-md:mt-14" >
+          <div className="inInnerSecTxt max-md:mt-14">
             <h1>GET IN TOUCH</h1>
             <div className="cellForm3">
               <img src={basilinsta} alt="" />
