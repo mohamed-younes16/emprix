@@ -36,7 +36,7 @@ const heroSec = () => {
         <img id="group7317" src={group7317} alt="main Section" />
       </div>
       <div className="flex  justify-center">
-        <img id="group121" className="h-[150px] mb-24 " src={group121} alt="" />
+        <img id="group121" className="h-[150px] lg:mb-24 " src={group121} alt="" />
       </div>
 
       <div className="sec2main  max-md:mt-4">
