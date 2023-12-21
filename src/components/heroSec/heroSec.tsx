@@ -23,7 +23,7 @@ const heroSec = () => {
 
           <p id="botmParaMain">
             Maximize the complete potential of social media to establish your
-            brand.
+            business.
           </p>
         </div>
         <a
@@ -47,7 +47,7 @@ const heroSec = () => {
             <h1 id="section2">What We Offer</h1>
             <p>
               We specialize in boosting business through effective
-              social media marketing. Our goal is to enhance your brand's online
+              social media marketing. Our goal is to enhance your business's online
               presence, engage your target audience, and drive growth in the
               ever-evolving digital marketplace.
             </p>
@@ -91,7 +91,7 @@ const heroSec = () => {
                 <div className="contTextim">
                   <h6 className="font-bold">Content Strategy</h6>
                   <p>
-                    Curating posts that resonate with<br></br> your brand
+                    Curating posts that resonate with<br></br> your business
                     identity and engage<br></br> your audience.
                   </p>
                 </div>

@@ -58,12 +58,12 @@ const testimonial = () => {
                 </div>
                 <div className="innerRti">
                   <img
-                    className="imgTest   "
+                    className="imgTest   rounded-2xl  "
                     src={group7330}
                     alt=""
                   />
                   <img
-                    className="imgTest  "
+                    className="imgTest    rounded-2xl "
                     src={group7331}
                     alt=""
                   />

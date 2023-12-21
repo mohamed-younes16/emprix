@@ -16,9 +16,9 @@ import { Toaster } from "sonner";
 const faqItems = [
   {
     question:
-      "What differentiates your Facebook marketing approach for business brands??",
+      "What differentiates your Facebook marketing approach for business brands?",
     answer:
-      "We mix creative stories, smart plans based on data, and a good understanding of online selling to make special Facebook ads for each brand.",
+      "We mix creative stories, smart plans based on data, and a good understanding of businesses to make special Facebook ads for each brand.",
   },
   {
     question:
@@ -49,26 +49,7 @@ function App() {
     <> 
     <Toaster richColors position="top-center"/>
     <div className="gradient"></div>
-    {/* <div className="absolute -z-10 w-full h-[40dvh]">
- <img src={grad}/>
 
-    </div>
-    <div className="absolute top-[0%] -z-10 w-full h-[40dvh]">
- <img src={grad}/>
-
-    </div>
-    <div className="absolute top-[250%] -z-10 w-full h-[40dvh]">
- <img src={grad}/>
-
-    </div>
-    <div className="absolute top-[450%] -z-10 w-full h-[40dvh]">
- <img src={grad}/>
-
-    </div>
-    <div className="absolute top-[650%] -z-10 w-full h-[40dvh]">
- <img src={grad}/>
-
-    </div> */}
 
       <Header />
       <HeroSec />

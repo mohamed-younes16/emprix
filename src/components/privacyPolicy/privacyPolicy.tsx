@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 // PrivacyPolicy.js
 
 import Modal from "react-modal";

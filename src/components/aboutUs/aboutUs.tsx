@@ -23,12 +23,12 @@ const aboutUs = () => {
             <img className="colLtImgMobile" src={group7316} alt="" />
             <p className=" mt-3">
               At <span className="emprix-marketing">Emprix Marketing</span>,
-              we're really good at boosting online stores using unique plans for
+              we're really good at boosting businesses  using unique plans for
               Facebook. Our skilled team mixes captivating stories with data to
-              make sure your brand connects with the right people. We've helped
-              many established online stores grow on Facebook. We don't just
+              make sure your business connects with the right people. We've helped
+              many established businesses  grow on Facebook. We don't just
               show ads; we create stories. Start a personalized marketing
-              journey with us, made just for your brand. Come with us and make
+              journey with us, made just for your business. Come with us and make
               your online business even better.
             </p>
           </div>
@@ -41,8 +41,8 @@ const aboutUs = () => {
               <h2>We have a team of professionals</h2>
             </div>
             <p>
-              We create custom plans for big online shops on social media. Our
-              team of experts helps improve your brand's online experience. Let
+              We create custom plans for big businesses on social media. Our
+              team of experts helps improve your business's online experience. Let
               us enhance your business with special strategies made just for
               you.
             </p>
@@ -55,7 +55,7 @@ const aboutUs = () => {
               <div className="point-header-para">
                 <h4>Digital Strategist</h4>
                 <p>
-                  Using what we know to help your brand stay ahead on Facebook.
+                  Using what we know to help your business stay ahead on Facebook.
                 </p>
               </div>
             </div>
@@ -65,7 +65,7 @@ const aboutUs = () => {
                 <h4>Creative Thinkers</h4>
                 <p>
                   Combining eye-catching pictures with interesting stories about
-                  the brand.
+                  the business.
                 </p>
               </div>
             </div>
@@ -80,7 +80,7 @@ const aboutUs = () => {
               <img src={group7324} alt=""></img>
               <div className="point-header-para">
                 <h4>Results-Driven Analysts</h4>
-                <p>Making sure each ad leads to real growth for your brand.</p>
+                <p>Making sure each ad leads to real growth for your business.</p>
               </div>
             </div>
           </div>
