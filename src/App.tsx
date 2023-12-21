@@ -22,7 +22,7 @@ const faqItems = [
   },
   {
     question:
-      "Can I see case studies or examples of past campaigns for business brands?",
+      "Can I see case studies or examples of past campaigns for business ?",
     answer:
       "To access business brand case studies, please contact our sales or support team for relevant examples showcasing our past successes.",
   },

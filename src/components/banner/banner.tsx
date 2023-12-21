@@ -1,9 +1,14 @@
 import "./banner.css";
-
+import {motion as m } from "framer-motion"
 const banner = () => {
   return (
     <>
-      <div className="outerWrap">
+      <m.div
+      initial={{ opacity: 0, y: 120 }}
+      transition={{ duration: .8 }}
+      whileInView={{ opacity: 1 ,y:0}}
+      
+      className="outerWrap">
         <div className="bannerWrap">
           <h2>
             Proven Results: <br></br>Empowering<br></br> business Success
@@ -21,7 +26,7 @@ const banner = () => {
             <p>Average ROAS</p>
           </div>
         </div>
-      </div>
+      </m.div>
     </>
   );
 };

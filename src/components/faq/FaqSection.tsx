@@ -5,6 +5,7 @@ import group7333 from "../../assets/Group 7333.png";
 import group7234 from "../../assets/Group 7234.png";
 import group7339 from "../../assets/Group 7339.svg";
 import frameSvg from "../../assets/Frame.svg";
+import { motion as m } from "framer-motion";
 
 interface FaqItem {
   question: string;
@@ -24,7 +25,11 @@ const FaqSection: React.FC<FaqSectionProps> = ({ faqItems }) => {
 
   return (
     <>
-      <div className="faqWrapper">
+      <m.div 
+      initial={{ opacity: 0, y: 120 }}
+      transition={{ duration: .8 }}
+      whileInView={{ opacity: 1 ,y:0}}
+      className="faqWrapper">
         <div className="innerSEC">
           <div className="innerLtSec">
             <div className="innerRtSec">
@@ -59,7 +64,7 @@ const FaqSection: React.FC<FaqSectionProps> = ({ faqItems }) => {
             <img className="faq-sectionImg" src={frameSvg} alt="" />
           </div>
         </div>
-      </div>
+      </m.div>
     </>
   );
 };

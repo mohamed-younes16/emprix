@@ -1,6 +1,6 @@
 import "./heroSec.css";
 import group7317 from "../../assets/Group 7317.svg";
-
+import { motion as m } from "framer-motion";
 import group_7318 from "../../assets/Group7318.png";
 import group121 from "../../assets/Group121.png";
 import group7321 from "../../assets/Group7321.png";
@@ -12,7 +12,13 @@ import group7327 from "../../assets/Group 7327.png";
 const heroSec = () => {
   return (
     <>
-      <div className="heroSec mt-[75px] " id="section1">
+      <m.div
+        initial={{ opacity: 0, y: 50 }}
+        transition={{ duration: 0.8 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        className="heroSec mt-[75px] "
+        id="section1"
+      >
         {/* <div className="pentagon-1"></div>
             <div className="pentagon-2"></div>
             <div className="pentagon-3"></div> */}
@@ -34,22 +40,32 @@ const heroSec = () => {
           Get Started{" "}
         </a>
         <img id="group7317" src={group7317} alt="main Section" />
-      </div>
+      </m.div>
       <div className="flex  justify-center">
-        <img id="group121" className="h-[150px] lg:mb-24 " src={group121} alt="" />
+        <img
+          id="group121"
+          className="h-[150px] lg:mb-24 "
+          src={group121}
+          alt=""
+        />
       </div>
 
-      <div className="sec2main  max-md:mt-4">
+      <m.div
+        initial={{ opacity: 0, y: 120 }}
+        transition={{ duration: 0.8 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        className="sec2main  max-md:mt-4"
+      >
         <div className="sec2UnderMainPara !justify-center !items-center md:flex-wrap ">
           <div className="colLtt mb-5 max-[1400px]:flex-col max-[1400px]:items-center  max-[1400px]:flex ">
             <img className="colLttImg" src={group7327} alt="" />
             {/* <div className="pentagon-1"></div> */}
             <h1 id="section2">What We Offer</h1>
             <p>
-              We specialize in boosting business through effective
-              social media marketing. Our goal is to enhance your business's online
-              presence, engage your target audience, and drive growth in the
-              ever-evolving digital marketplace.
+              We specialize in boosting business through effective social media
+              marketing. Our goal is to enhance your brand's online presence,
+              engage your target audience, and drive growth in the ever-evolving
+              digital marketplace.
             </p>
           </div>
           <div className="colRT mb-20 flex justify-center">
@@ -99,7 +115,7 @@ const heroSec = () => {
             </div>
           </div>
         </div>
-      </div>
+      </m.div>
     </>
   );
 };

@@ -1,5 +1,5 @@
 import "./testimonial.css";
-
+import { motion as m } from "framer-motion";
 // import group7227 from '../../assets/Group 7227.png'
 import group7227 from "../../assets/testimonials.svg";
 import group7254 from "../../assets/Group 7254.png";
@@ -12,7 +12,12 @@ import testimonialsText from "../../assets/testimonialsText.svg";
 const testimonial = () => {
   return (
     <>
-      <div className="wrapOuter">
+      <m.div 
+      initial={{ opacity: 0, y: 150 }}
+        transition={{ duration: 1 }}
+        whileInView={{ opacity: 1 ,y:0}}
+      
+      className="wrapOuter">
         <div className="wrapOne">
           {/* <div className="pentagon-1"></div>
                     <div className="pentagon-2"></div> */}
@@ -72,7 +77,7 @@ const testimonial = () => {
             </div>
           </div>
         </div>
-      </div>
+      </m.div>
     </>
   );
 };

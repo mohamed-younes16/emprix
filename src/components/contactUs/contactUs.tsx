@@ -7,7 +7,7 @@ import group7335 from "../../assets/Group 7335.png";
 import group7340 from "../../assets/Group 7340.svg";
 // import vector from "../../assets/Vector.png";
 import basilinsta from "../../assets/basil_instagram-solid.png";
-
+import { motion as m } from "framer-motion";
 import { toast } from "sonner";
 
 const ContactForm: React.FC = () => {
@@ -51,7 +51,11 @@ const ContactForm: React.FC = () => {
 
   return (
     <>
-      <div className="formSec" id="section6">
+      <m.div
+      initial={{ opacity: 0, y: 200 }}
+      transition={{ duration: .9 }}
+      whileInView={{ opacity: 1 ,y:0}}
+      className="formSec" id="section6">
         <div
           className="formWrapper  transition-all
            cursor-pointer 
@@ -122,7 +126,7 @@ const ContactForm: React.FC = () => {
           </div>
           <img className="imgFotseter" src={group7335} alt="" />
         </div>
-      </div>
+      </m.div>
     </>
   );
 };
