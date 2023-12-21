@@ -18,20 +18,21 @@ const testimonial = () => {
                     <div className="pentagon-2"></div> */}
           <div className="testWrapperr" id="section5">
             <div className="innerLti ">
-              <img
-                className="imgTest h-[130px] w-[240px] "
+              <div className="flex justify-center"><img
+                className="imgTest h-[110px] w-[210px] "
                 src={testimonialsText}
                 alt=""
-              />
+              /></div>
+              
               <img
-                className="imgTest  p-4 rounded-2xl "
+                className="imgTestrounded-2xl h-[300px] "
                 src={group7338}
                 alt=""
               />
             </div>
             <div className="innerRti">
               <img
-                className="testimonial-image imageTest mt-4 p-4 rounded-2xl "
+                className="testimonial-image imageTest mt-4  rounded-2xl "
                 src={group7227}
                 alt="proof"
               />

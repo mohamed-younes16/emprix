@@ -59,10 +59,10 @@ const ContactForm: React.FC = () => {
         >
         
        
-          <img className="imgFormWrap" src={group7340} alt="" />
+        <div className="flex justify-center"> <img className="imgFormWrap h-[100px] w-[200px] "  src={group7340} alt="" /></div> 
           <form
             style={{}}
-            className=" space-y-5 p-6   "
+            className=" space-y-5  lg:w-[25dvw]   "
             onSubmit={handleSubmit}
           >
             <div>
