@@ -8,6 +8,7 @@ import vec3 from "../../assets/Vector (3).png";
 import vec4 from "../../assets/Vector (4).png";
 import PrivacyPolicy from "../privacyPolicy/privacyPolicy";
 import TermsAndConditions from "../privacyPolicy/termsCondition";
+import { motion } from "framer-motion";
 
 const footer = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
@@ -31,7 +32,12 @@ const footer = () => {
 
   return (
     <>
-      <div className="footerWrappr   max-md:mt-10">
+      <motion.div
+       initial={{ opacity: 0, y: 120 }}
+       transition={{ duration: 0.8 ,}}
+       whileInView={{ opacity: 1, y: 0, }}
+       viewport={{once:true}}
+      className="footerWrappr   max-md:mt-10">
         <div className="topRow">
           <img className="imgFoot !text-black" src={rec197} alt="" />
           <p className="pFooter">
@@ -96,7 +102,7 @@ const footer = () => {
           isOpen={isTermsConditionOpen}
           onClose={closeTermsConditionPopup}
         ></TermsAndConditions>
-      </div>
+      </motion.div>
     </>
   );
 };

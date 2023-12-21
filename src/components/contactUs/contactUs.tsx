@@ -55,6 +55,7 @@ const ContactForm: React.FC = () => {
       initial={{ opacity: 0, y: 200 }}
       transition={{ duration: .9 }}
       whileInView={{ opacity: 1 ,y:0}}
+      viewport={{once:true}}
       className="formSec" id="section6">
         <div
           className="formWrapper  transition-all

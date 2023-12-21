@@ -13,10 +13,10 @@ const testimonial = () => {
   return (
     <>
       <m.div 
-      initial={{ opacity: 0, y: 150 }}
-        transition={{ duration: 1 }}
-        whileInView={{ opacity: 1 ,y:0}}
-      
+        initial={{ opacity: 0, y: 150 }}
+        transition={{ duration: 0.8 ,}}
+        whileInView={{ opacity: 1, y: 0, }}
+        viewport={{once:true}}
       className="wrapOuter">
         <div className="wrapOne">
           {/* <div className="pentagon-1"></div>
@@ -44,7 +44,12 @@ const testimonial = () => {
               {/* <img className='imgTest' src={group7227} alt="proof" /> */}
             </div>
           </div>
-          <div className="outWrap">
+          <m.div
+           initial={{ opacity: 0, y: 120 }}
+           transition={{ duration: 0.8 ,}}
+           whileInView={{ opacity: 1, y: 0, }}
+           viewport={{once:true}}
+          className="outWrap">
             <div className="blogwrap">
               {/* <div className="pentagon-3"></div> */}
               <img className="imgTest" src={group7254} alt="" />
@@ -75,7 +80,7 @@ const testimonial = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </m.div>
         </div>
       </m.div>
     </>

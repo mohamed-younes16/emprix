@@ -13,9 +13,11 @@ const aboutUs = () => {
   return (
     <>
       <m.div
-        initial={{ opacity: 0, translateY: "150px" }}
-        transition={{ duration: 0.7 }}
-        whileInView={{ opacity: 1, translateY: "0px" }}
+        initial={{ opacity: 0, y: 150 }}
+        transition={{ duration: 0.8 ,}}
+        whileInView={{ opacity: 1, y: 0, }}
+        viewport={{once:true}}
+
         className="pWrapTopSec lg:my-16"
       >
         {/* <div className="pentagon-1"></div> */}
@@ -41,8 +43,9 @@ const aboutUs = () => {
       </m.div>
       <m.div
         initial={{ opacity: 0, y: 120 }}
-        transition={{ duration: 0.8 }}
-        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 ,}}
+        whileInView={{ opacity: 1, y: 0, }}
+        viewport={{once:true}}
         className="team-of-professionals-main-div"
       >
         <div className="team-of-professionals-align-div flex-wrap">

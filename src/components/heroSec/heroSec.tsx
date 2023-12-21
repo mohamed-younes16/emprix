@@ -51,9 +51,11 @@ const heroSec = () => {
       </div>
 
       <m.div
+
         initial={{ opacity: 0, y: 120 }}
-        transition={{ duration: 0.8 }}
-        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 ,}}
+        whileInView={{ opacity: 1, y: 0, }}
+        viewport={{once:true}}
         className="sec2main  max-md:mt-4"
       >
         <div className="sec2UnderMainPara !justify-center !items-center md:flex-wrap ">

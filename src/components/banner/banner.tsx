@@ -4,10 +4,11 @@ const banner = () => {
   return (
     <>
       <m.div
-      initial={{ opacity: 0, y: 120 }}
-      transition={{ duration: .8 }}
-      whileInView={{ opacity: 1 ,y:0}}
-      
+      initial={{ opacity: 0, y: 150 }}
+      transition={{ duration: 0.8 ,}}
+      whileInView={{ opacity: 1, y: 0, }}
+      viewport={{once:true}}
+
       className="outerWrap">
         <div className="bannerWrap">
           <h2>
