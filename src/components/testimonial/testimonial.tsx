@@ -19,7 +19,7 @@ const testimonial = () => {
           <div className="testWrapperr" id="section5">
             <div className="innerLti ">
               <div className="flex justify-center"><img
-                className="imgTest h-[110px] w-[210px] "
+                className="imgTest h-[110px] w-[210px] max-md:w-[160px] "
                 src={testimonialsText}
                 alt=""
               /></div>

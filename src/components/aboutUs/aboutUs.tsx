@@ -12,7 +12,7 @@ import german from "../../assets/GermanCar.svg";
 const aboutUs = () => {
   return (
     <>
-      <div className="pWrapTopSec">
+      <div className="pWrapTopSec my-16">
         {/* <div className="pentagon-1"></div> */}
         <div className="rowTopAbout" id="section4">
           <div className="colLt">
@@ -21,7 +21,7 @@ const aboutUs = () => {
           <div className="colRT">
             <img src={group7223} alt="" />
             <img className="colLtImgMobile" src={group7316} alt="" />
-            <p>
+            <p className=" mt-3">
               At <span className="emprix-marketing">Emprix Marketing</span>,
               we're really good at boosting online stores using unique plans for
               Facebook. Our skilled team mixes captivating stories with data to
