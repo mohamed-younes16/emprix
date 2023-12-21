@@ -12,7 +12,7 @@ import german from "../../assets/GermanCar.svg";
 const aboutUs = () => {
   return (
     <>
-      <div className="pWrapTopSec my-16">
+      <div className="pWrapTopSec lg:my-16">
         {/* <div className="pentagon-1"></div> */}
         <div className="rowTopAbout" id="section4">
           <div className="colLt">
