@@ -35,7 +35,7 @@ const footer = () => {
         <div className="topRow">
           <img className="imgFoot !text-black" src={rec197} alt="" />
           <p className="pFooter">
-            We create custom plans for established online shops on social media.
+            We create custom plans for established businesses on social media.
             <br></br> Our team of experts helps improve your brand's online
             experience. <br></br>Let us enhance your business with special
             strategies made just for you.

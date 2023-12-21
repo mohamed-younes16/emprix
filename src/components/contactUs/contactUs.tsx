@@ -113,7 +113,7 @@ const ContactForm: React.FC = () => {
           </form>
         </div>
         <div className="innerSecFormRt flex-col flex justify-center">
-          <div className="inInnerSecTxt max-md:mt-14">
+          <div className="inInnerSecTxt max-md:mt-4">
             <h1>GET IN TOUCH</h1>
             <div className="cellForm3">
               <img src={basilinsta} alt="" />

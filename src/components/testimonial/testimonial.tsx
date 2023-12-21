@@ -19,7 +19,7 @@ const testimonial = () => {
           <div className="testWrapperr" id="section5">
             <div className="innerLti ">
               <img
-                className="imgTest h-[90px] w-[200px] "
+                className="imgTest h-[130px] w-[240px] "
                 src={testimonialsText}
                 alt=""
               />
@@ -45,24 +45,24 @@ const testimonial = () => {
               <div className="imgWrapperTest">
                 <div className="innerLti">
                   <img
-                    className="imgTest   m-2 p-4 rounded-2xl "
+                    className="imgTest  rounded-2xl "
                     src={group7329}
                     alt=""
                   />
                   <img
-                    className="imgTest   m-2   p-4 rounded-2xl "
+                    className="imgTest    rounded-2xl "
                     src={group7332}
                     alt=""
                   />
                 </div>
                 <div className="innerRti">
                   <img
-                    className="imgTest  p-4  "
+                    className="imgTest   "
                     src={group7330}
                     alt=""
                   />
                   <img
-                    className="imgTest  p-4 "
+                    className="imgTest  "
                     src={group7331}
                     alt=""
                   />
