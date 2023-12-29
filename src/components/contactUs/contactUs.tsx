@@ -7,6 +7,7 @@ import group7335 from "../../assets/Group 7335.png";
 import group7340 from "../../assets/Group 7340.svg";
 // import vector from "../../assets/Vector.png";
 import basilinsta from "../../assets/basil_instagram-solid.png";
+import phone from "../../assets/phone.svg";
 import { motion as m } from "framer-motion";
 import { toast } from "sonner";
 
@@ -53,7 +54,7 @@ const ContactForm: React.FC = () => {
     <>
       <m.div
       initial={{ opacity: 0, y: 200 }}
-      transition={{ duration: .9 }}
+      transition={{ duration: 1 }}
       whileInView={{ opacity: 1 ,y:0}}
       viewport={{once:true}}
       className="formSec" id="section6">
@@ -119,10 +120,17 @@ const ContactForm: React.FC = () => {
         </div>
         <div className="innerSecFormRt flex-col flex justify-center">
           <div className="inInnerSecTxt max-md:mt-4">
-            <h1>GET IN TOUCH</h1>
-            <div className="cellForm3">
+            <h1 className="pb-2" >GET IN TOUCH</h1>
+            <div className="cellForm3 ">
               <img src={basilinsta} alt="" />
               <p>support@Emprixmarketing</p>
+            </div>
+          </div>
+          <div className="inInnerSecTxt max-md:mt-4">
+
+            <div className="cellForm3">
+              <img className="h-[20px] w-[20px] " src={phone} alt="" />
+              <p>(916) 827-0149</p>
             </div>
           </div>
           <img className="imgFotseter" src={group7335} alt="" />

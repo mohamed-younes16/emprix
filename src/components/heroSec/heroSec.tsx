@@ -8,7 +8,7 @@ import group7320 from "../../assets/Group7320.png";
 import group7318 from "../../assets/Group 7318.svg";
 import group7319 from "../../assets/Group7319.png";
 import group7327 from "../../assets/Group 7327.png";
-
+import phone from "../../assets/phone.svg";
 const heroSec = () => {
   return (
     <>
@@ -16,6 +16,7 @@ const heroSec = () => {
         initial={{ opacity: 0, y: 50 }}
         transition={{ duration: 0.8 }}
         whileInView={{ opacity: 1, y: 0 }}
+        viewport={{once: true}}
         className="heroSec mt-[75px] "
         id="section1"
       >
@@ -39,6 +40,10 @@ const heroSec = () => {
           {" "}
           Get Started{" "}
         </a>
+        <div className="cellForm3">
+              <img className="h-[20px] w-[20px] " src={phone} alt="" />
+              <p>(916) 827-0149</p>
+            </div>
         <img id="group7317" src={group7317} alt="main Section" />
       </m.div>
       <div className="flex  justify-center">
