@@ -40,7 +40,7 @@ const heroSec = () => {
           {" "}
           Get Started{" "}
         </a>
-        <div className="cellForm3">
+        <div onClick={()=>window.open("tel:(916) 827-0149")} className="cellForm3">
               <img className="h-[20px] w-[20px] " src={phone} alt="" />
               <p>(916) 827-0149</p>
             </div>
