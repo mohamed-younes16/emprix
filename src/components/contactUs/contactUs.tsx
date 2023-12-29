@@ -17,9 +17,9 @@ const ContactForm: React.FC = () => {
     email: "",
     message: "",
   });
-//   const { VITE_TEMPLATE_KEY, VITE_SERVICE_KEY, VITE_PUBLIC_KEYOF_EMAILJS } =
-//     import.meta.env;
-// console.log({ VITE_TEMPLATE_KEY, VITE_SERVICE_KEY, VITE_PUBLIC_KEYOF_EMAILJS })
+  //   const { VITE_TEMPLATE_KEY, VITE_SERVICE_KEY, VITE_PUBLIC_KEYOF_EMAILJS } =
+  //     import.meta.env;
+  // console.log({ VITE_TEMPLATE_KEY, VITE_SERVICE_KEY, VITE_PUBLIC_KEYOF_EMAILJS })
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
@@ -34,7 +34,7 @@ const ContactForm: React.FC = () => {
     e.preventDefault();
     emailjs
       .send(
-       "service_gs498hk",
+        "service_gs498hk",
         "template_ggda3fg",
         {
           from_name: formData.name,
@@ -53,19 +53,26 @@ const ContactForm: React.FC = () => {
   return (
     <>
       <m.div
-      initial={{ opacity: 0, y: 200 }}
-      transition={{ duration: 1 }}
-      whileInView={{ opacity: 1 ,y:0}}
-      viewport={{once:true}}
-      className="formSec" id="section6">
+        initial={{ opacity: 0, y: 200 }}
+        transition={{ duration: 1 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        className="formSec"
+        id="section6"
+      >
         <div
           className="formWrapper  transition-all
            cursor-pointer 
          rounded-lg backdrop-blur-md  flex flex-col "
         >
-        
-       
-        <div className="flex justify-center"> <img className="imgFormWrap h-[100px] w-[200px] max-md:w-[180px] "  src={group7340} alt="" /></div> 
+          <div className="flex justify-center">
+            {" "}
+            <img
+              className="imgFormWrap h-[100px] w-[200px] max-md:w-[180px] "
+              src={group7340}
+              alt=""
+            />
+          </div>
           <form
             style={{}}
             className=" space-y-5  lg:w-[25dvw]   "
@@ -120,15 +127,19 @@ const ContactForm: React.FC = () => {
         </div>
         <div className="innerSecFormRt flex-col flex justify-center">
           <div className="inInnerSecTxt max-md:mt-4">
-            <h1 className="pb-2" >GET IN TOUCH</h1>
-            <div className="cellForm3 ">
-              <img src={basilinsta} alt="" />
-              <p>support@Emprixmarketing</p>
-            </div>
+            <h1 className="pb-2">GET IN TOUCH</h1>
+            <a href="mailto:support@Emprixmarketing?subject=Call">
+              <div className="cellForm3 ">
+                <img src={basilinsta} alt="" />
+                <p>support@Emprixmarketing</p>
+              </div>
+            </a>
           </div>
           <div className="inInnerSecTxt max-md:mt-4">
-
-            <div  onClick={()=>window.open("tel:(916) 827-0149")} className="cellForm3">
+            <div
+              onClick={() => window.open("tel:(916) 827-0149")}
+              className="cellForm3"
+            >
               <img className="h-[20px] w-[20px] " src={phone} alt="" />
               <p>(916) 827-0149</p>
             </div>
